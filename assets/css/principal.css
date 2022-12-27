@@ -1,0 +1,253 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+
+    --botao-banner-principal: #167BF7;
+    --texto-banner-principal: #C0C0C0;
+    --branco-principal: #ffffff;
+    --cor-de-fundoprincipal: #00030C;
+
+}
+
+body {
+
+    background-color: var(--cor-de-fundoprincipal);
+    font-family: 'inter', sans-serif;
+
+}
+
+.texto__padrao{
+    font-size: 1.1rem;
+    color: var(--texto-banner-principal);
+    line-height: 1.5rem;
+}
+
+.titulo{
+
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+/* INICIO DA Navegação */
+
+.banner__principal {
+
+    display: flex;
+    color: var(--branco-principal);
+    background-image: url(/assets/img/Background.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.info__banner{
+
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 8rem 0 0 8rem;
+}
+
+.logo__banner{
+
+    width: 20vw;
+    padding: 2rem 0;
+
+}
+
+.titulo__principal-banner{
+
+    font-size: 3rem;
+    width: 45vw;
+    font-weight: 600;
+
+}
+
+.botao__assinar{
+
+    width: 35vw;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--botao-banner-principal);
+    font-size: 1rem;
+
+}
+
+.botao__alura{
+
+    border: 1px solid var(--branco-principal);
+    width: 35vw;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.preco__texto{
+
+    font-size: 0.9rem;
+    color: var(--texto-banner-principal);
+
+}
+
+/* Fim DA Navegação 
+_________________________________________________________________________*/
+
+/* INICIO Do main */
+
+/* sessão informações */
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+    color: var(--branco-principal);
+    margin: 3rem 0 3rem 0;
+    gap: 3rem;
+}
+
+.foto__computador{
+
+    width: 30rem;
+    padding-right: 3rem;
+}
+
+.informacoes__assista{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 0 0 0 3rem;
+}
+
+.informacoes__texto{
+
+    width: 35vw;
+
+}
+/* Fim sessão informações */
+
+/* Inicio sessão combo */
+.combo{
+
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    color: var(--texto-banner-principal);
+    padding: 5rem 0;
+}
+
+.conteudo__combo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.texto__combo{
+
+    width: 30vw;
+
+}
+
+.botao__combo{
+
+    background-color: var(--botao-banner-principal);
+    color: var(--branco-principal);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    width: 11rem;
+    text-align: center;
+    
+}
+
+/* Fim sessão combo */
+
+/* Inicio sessão cursos */
+
+.cursos{
+
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    color: var(--branco-principal);
+
+}
+
+.conteudo__cursos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.texto__cursos{
+
+    width: 35vw;
+
+}
+
+/* Fim Da sessão cursos*/
+
+
+/* Inicio sessão Dispositivos */
+
+
+.dispositivos-favoritos{
+
+    display:flex;
+    color: var(--branco-principal);
+    justify-content: center;
+    padding: 5rem 0 6rem;
+}
+
+.titulo__dispositivos{
+
+    font-size: 3rem;
+}
+
+.dispositivos{
+
+    color: var(--branco-principal);
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    
+}
+
+.computadores, .tv, .moveis{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.tv__texto, .computador__texto, .moveis__texto{
+
+    font-size: 2.5rem;
+
+}
+
+.icones__dispositivos{
+
+    font-size: 5rem;
+    font-weight: ;
+}
+
+
+
+/* Fim Do main */
