@@ -22,23 +22,22 @@ body {
 
 }
 
-.texto__padrao{
+.texto__padrao {
     font-size: 1.1rem;
     color: var(--texto-banner-principal);
     line-height: 1.5rem;
 }
 
-.titulo{
+.titulo {
 
     font-size: 2.5rem;
     font-weight: bold;
 
 }
-/* INICIO DA Navegação */
 
+/* INICIO DA Navegação */
 .banner__principal {
 
-    display: flex;
     color: var(--branco-principal);
     background-image: url(/assets/img/Background.png);
     background-size: cover;
@@ -47,10 +46,11 @@ body {
 
 }
 
-.info__banner{
+.info__banner {
 
     width: 45vw;
     display: flex;
+
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -58,14 +58,14 @@ body {
     padding: 8rem 0 0 8rem;
 }
 
-.logo__banner{
+.logo__banner {
 
     width: 20vw;
     padding: 2rem 0;
 
 }
 
-.titulo__principal-banner{
+.titulo__principal-banner {
 
     font-size: 3rem;
     width: 45vw;
@@ -73,7 +73,7 @@ body {
 
 }
 
-.botao__assinar{
+.botao__assinar {
 
     width: 35vw;
     padding: 1rem;
@@ -83,7 +83,7 @@ body {
 
 }
 
-.botao__alura{
+.botao__alura {
 
     border: 1px solid var(--branco-principal);
     width: 35vw;
@@ -92,7 +92,7 @@ body {
     font-size: 1rem;
 }
 
-.preco__texto{
+.preco__texto {
 
     font-size: 0.9rem;
     color: var(--texto-banner-principal);
@@ -106,20 +106,45 @@ _________________________________________________________________________*/
 
 /* sessão informações */
 
-.informacoes{
+@media screen and (min-width: 380px){
+    
+.foto__computador{
+
+    width:15vw;
+
+}
+
+.titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.informacoes__texto{
+
+    width: 100%;
+    
+}
+
+
+}
+
+
+.informacoes {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     color: var(--branco-principal);
     gap: 3rem;
 }
 
-.foto__computador{
+.foto__computador {
 
     width: 30rem;
     padding-right: 3rem;
 }
 
-.informacoes__assista{
+.informacoes__assista {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -127,24 +152,26 @@ _________________________________________________________________________*/
     padding: 0 0 0 3rem;
 }
 
-.informacoes__texto{
+.informacoes__texto {
 
     width: 35vw;
 
 }
+
 /* Fim sessão informações */
 
 /* Inicio sessão combo */
-.combo{
+.combo {
 
     display: flex;
+    flex-wrap: wrap-reverse;
     justify-content: center;
     gap: 5rem;
     color: var(--texto-banner-principal);
     padding: 5rem 0;
 }
 
-.conteudo__combo{
+.conteudo__combo {
 
     display: flex;
     flex-direction: column;
@@ -152,13 +179,13 @@ _________________________________________________________________________*/
     gap: 1.5rem;
 }
 
-.texto__combo{
+.texto__combo {
 
     width: 30vw;
 
 }
 
-.botao__combo{
+.botao__combo {
 
     background-color: var(--botao-banner-principal);
     color: var(--branco-principal);
@@ -168,24 +195,25 @@ _________________________________________________________________________*/
     border: 1px solid transparent;
     width: 11rem;
     text-align: center;
-    
+
 }
 
 /* Fim sessão combo */
 
 /* Inicio sessão cursos */
 
-.cursos{
+.cursos {
 
     padding: 6rem 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
     color: var(--branco-principal);
 
 }
 
-.conteudo__cursos{
+.conteudo__cursos {
 
     display: flex;
     flex-direction: column;
@@ -194,7 +222,7 @@ _________________________________________________________________________*/
 
 }
 
-.texto__cursos{
+.texto__cursos {
 
     width: 35vw;
 
@@ -206,30 +234,33 @@ _________________________________________________________________________*/
 /* Inicio sessão Dispositivos */
 
 
-.dispositivos-favoritos{
+.dispositivos-favoritos {
 
-    display:flex;
+    display: flex;
     color: var(--branco-principal);
     justify-content: center;
     padding: 5rem 0 6rem;
 }
 
-.titulo__dispositivos{
+.titulo__dispositivos {
 
     font-size: 3rem;
 }
 
-.dispositivos{
+.dispositivos {
 
     color: var(--branco-principal);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 4rem;
     padding-bottom: 3rem;
-    
+
 }
 
-.computadores, .tv, .moveis{
+.computadores,
+.tv,
+.moveis {
 
     display: flex;
     flex-direction: column;
@@ -238,22 +269,25 @@ _________________________________________________________________________*/
 
 }
 
-.tv__texto, .computador__texto, .moveis__texto{
+.tv__texto,
+.computador__texto,
+.moveis__texto {
 
     font-size: 2rem;
 
 }
 
-.icones__dispositivos{
+.icones__dispositivos {
 
     font-size: 2rem;
 
 }
+
 /* Fim sessão dispositivos*/
 
 /* Início Rodapé*/
 
-.rodape{
+.rodape {
     color: var(--branco-principal);
     display: flex;
     flex-direction: column;
@@ -262,19 +296,19 @@ _________________________________________________________________________*/
 
 }
 
-.logo__rodape{
+.logo__rodape {
 
     padding: 2.5rem;
 
 }
 
-.links__rodape{
+.links__rodape {
 
     display: flex;
     gap: 1.5rem;
 }
 
-.informacoes__rodape{
+.informacoes__rodape {
 
     display: flex;
     flex-direction: column;
@@ -286,7 +320,7 @@ _________________________________________________________________________*/
     color: var(--texto-banner-principal);
     margin-bottom: 5rem;
     line-height: 1.2rem;
-    
+
 }
 
 
