@@ -1,0 +1,26 @@
+.informacoes {
+ display: flex;
+ justify-content: center;
+ color: var(--branco-principal);
+ gap: 3rem;
+}
+
+.foto__computador {
+
+ width: 30rem;
+ padding-right: 3rem;
+}
+
+.informacoes__assista {
+ display: flex;
+ flex-direction: column;
+ gap: 1.5rem;
+ justify-content: center;
+ padding: 0 0 0 3rem;
+}
+
+.informacoes__texto {
+
+ width: 35vw;
+
+}

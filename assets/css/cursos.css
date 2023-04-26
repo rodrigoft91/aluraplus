@@ -1,0 +1,24 @@
+.cursos {
+
+ padding: 6rem 0;
+ display: flex;
+ justify-content: center;
+ gap: 3rem;
+ color: var(--branco-principal);
+
+}
+
+.conteudo__cursos {
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 1rem;
+
+}
+
+.texto__cursos {
+
+ width: 35vw;
+
+}

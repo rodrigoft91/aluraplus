@@ -1,0 +1,47 @@
+.dispositivos-favoritos {
+
+ display: flex;
+ color: var(--branco-principal);
+ justify-content: center;
+ padding: 5rem 0 6rem;
+}
+
+.titulo__dispositivos {
+
+ font-size: 3rem;
+}
+
+.dispositivos {
+
+ color: var(--branco-principal);
+ display: flex;
+ justify-content: center;
+ gap: 4rem;
+ padding-bottom: 3rem;
+
+}
+
+.computadores,
+.tv,
+.moveis {
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 1rem;
+
+}
+
+.tv__texto,
+.computador__texto,
+.moveis__texto {
+
+ font-size: 2rem;
+
+}
+
+.icones__dispositivos {
+
+ font-size: 2rem;
+
+}

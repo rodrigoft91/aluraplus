@@ -1,0 +1,35 @@
+.combo {
+
+ display: flex;
+ justify-content: center;
+ gap: 5rem;
+ color: var(--texto-banner-principal);
+ padding: 5rem 0;
+}
+
+.conteudo__combo {
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 1.5rem;
+}
+
+.texto__combo {
+
+ width: 30vw;
+
+}
+
+.botao__combo {
+
+ background-color: var(--botao-banner-principal);
+ color: var(--branco-principal);
+ padding: 1rem;
+ border-radius: 0.5rem;
+ font-size: 1rem;
+ border: 1px solid transparent;
+ width: 11rem;
+ text-align: center;
+
+}

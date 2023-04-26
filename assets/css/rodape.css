@@ -1,0 +1,33 @@
+.rodape {
+ color: var(--branco-principal);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 2rem;
+
+}
+
+.logo__rodape {
+
+ padding: 2.5rem;
+
+}
+
+.links__rodape {
+
+ display: flex;
+ gap: 1.5rem;
+}
+
+.informacoes__rodape {
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 65vw;
+ gap: 1.5rem;
+ text-align: center;
+ font-size: 0.9rem;
+ color: var(--texto-banner-principal);
+ margin-bottom: 5rem;
+}
