@@ -51,3 +51,14 @@
  }
 
 }
+
+@media (max-width: 480px) {
+
+
+ .informacoes__titulo {
+
+  text-align: center;
+
+ }
+
+}

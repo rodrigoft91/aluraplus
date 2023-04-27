@@ -75,6 +75,12 @@
 
  }
 
+ .container__logo {
+
+  width: 30vw;
+
+ }
+
  .container__principal__banner {
   width: 100%;
  }
@@ -82,6 +88,28 @@
  .container__botao__assinar,
  .container__botao__alura {
   width: 60%;
+ }
+
+
+
+}
+
+@media (max-width: 480px) {
+
+
+ .container__logo {
+
+  width: 50vw;
+
+ }
+
+ .container__principal__titulo {
+  font-size: 1.5rem;
+ }
+
+ .container__botao__assinar,
+ .container__botao__alura {
+  width: 80%;
  }
 
 

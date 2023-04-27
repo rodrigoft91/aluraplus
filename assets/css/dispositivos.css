@@ -56,3 +56,20 @@
  }
 
 }
+
+@media (max-width: 480px) {
+
+
+ .dispositivo__moveis__texto {
+
+  text-align: center;
+
+ }
+
+ .dispositivos__titulo {
+  width: 100%;
+  font-size: 2rem;
+ }
+
+
+}
