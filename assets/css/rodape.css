@@ -1,4 +1,6 @@
 .rodape {
+ width: 70%;
+ margin: auto;
  color: var(--branco-principal);
  display: flex;
  flex-direction: column;
@@ -7,19 +9,20 @@
 
 }
 
-.logo__rodape {
+.rodape__logo {
 
  padding: 2.5rem;
 
 }
 
-.links__rodape {
+.rodape__links {
 
  display: flex;
- gap: 1.5rem;
+ gap: 1rem;
+ font-weight: bold;
 }
 
-.informacoes__rodape {
+.rodape__informacoes {
 
  display: flex;
  flex-direction: column;
@@ -30,4 +33,14 @@
  font-size: 0.9rem;
  color: var(--texto-banner-principal);
  margin-bottom: 5rem;
+}
+
+@media (max-width: 1000px) {
+
+ .rodape__links {
+
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+ }
 }

@@ -1,13 +1,13 @@
-.combo {
-
+.container__combo {
+ width: 70%;
+ margin: 4rem auto;
  display: flex;
  justify-content: center;
  gap: 5rem;
  color: var(--texto-banner-principal);
- padding: 5rem 0;
 }
 
-.conteudo__combo {
+.container__combo__conteudo {
 
  display: flex;
  flex-direction: column;
@@ -15,10 +15,8 @@
  gap: 1.5rem;
 }
 
-.texto__combo {
-
- width: 30vw;
-
+.container__combo__texto {
+ width: 35vw;
 }
 
 .botao__combo {
@@ -31,5 +29,27 @@
  border: 1px solid transparent;
  width: 11rem;
  text-align: center;
+
+}
+
+.foto__combo {
+ width: 30vw;
+}
+
+@media (max-width: 1000px) {
+
+ .container__combo {
+  flex-direction: column-reverse;
+  align-items: center;
+ }
+
+ .container__combo__conteudo {
+  align-items: center;
+ }
+
+ .container__combo__texto {
+  width: 100%;
+  text-align: center;
+ }
 
 }

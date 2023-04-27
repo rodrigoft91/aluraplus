@@ -1,10 +1,3 @@
-.titulo {
-
- font-size: 2.5rem;
- font-weight: bold;
-
-}
-
 .container__principal {
 
  display: flex;
@@ -48,7 +41,7 @@
 
 .container__botao__assinar {
 
- width: 35vw;
+ width: 40vw;
  padding: 1rem;
  border-radius: 0.5rem;
  background-color: var(--botao-banner-principal);
@@ -59,7 +52,7 @@
 .container__botao__alura {
 
  border: 1px solid var(--branco-principal);
- width: 35vw;
+ width: 40vw;
  padding: 1rem;
  border-radius: 0.5rem;
  font-size: 1rem;
@@ -69,5 +62,28 @@
 
  font-size: 0.9rem;
  color: var(--texto-banner-principal);
+
+}
+
+@media (max-width: 1200px) {
+
+ .container__principal {
+  background-image: none;
+  justify-content: center;
+  height: auto;
+  margin: 5rem 0;
+
+ }
+
+ .container__principal__banner {
+  width: 100%;
+ }
+
+ .container__botao__assinar,
+ .container__botao__alura {
+  width: 60%;
+ }
+
+
 
 }

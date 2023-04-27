@@ -1,29 +1,38 @@
-.dispositivos-favoritos {
+.container__dispositivos {
+ width: 70%;
+ margin: 0 auto;
+
+}
+
+
+.dispositivos__favoritos {
 
  display: flex;
  color: var(--branco-principal);
  justify-content: center;
- padding: 5rem 0 6rem;
+ margin: 6rem 0;
+
 }
 
-.titulo__dispositivos {
+.dispositivos__titulo {
 
  font-size: 3rem;
+ text-align: center;
 }
 
-.dispositivos {
+.dispositivos__aparelhos {
 
  color: var(--branco-principal);
  display: flex;
  justify-content: center;
  gap: 4rem;
- padding-bottom: 3rem;
+ margin-bottom: 3rem;
 
 }
 
-.computadores,
-.tv,
-.moveis {
+.dispositivo__tv,
+.dispositivo__computadores,
+.dispositivo__moveis {
 
  display: flex;
  flex-direction: column;
@@ -32,16 +41,18 @@
 
 }
 
-.tv__texto,
-.computador__texto,
-.moveis__texto {
+.dispositivo__tv__texto,
+.dispositivo__computador__texto,
+.dispositivo__moveis__texto {
 
  font-size: 2rem;
 
 }
 
-.icones__dispositivos {
+@media (max-width: 1000px) {
 
- font-size: 2rem;
+ .dispositivos__aparelhos {
+  flex-direction: column;
+ }
 
 }
