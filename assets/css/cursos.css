@@ -1,0 +1,41 @@
+.container__cursos {
+
+ width: 70%;
+ margin: 4rem auto;
+ display: flex;
+ justify-content: center;
+ padding: 4.5rem 0;
+ gap: 5rem;
+ color: var(--branco-principal);
+
+}
+
+.conteudo__cursos {
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 1rem;
+
+}
+
+.foto__cursos {
+
+ width: 35vw;
+
+}
+
+@media (max-width: 1000px) {
+
+ .container__cursos {
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .conteudo__cursos {
+  text-align: center;
+ }
+
+
+
+}
